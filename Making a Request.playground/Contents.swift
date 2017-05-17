@@ -2,6 +2,9 @@
 
 import UIKit
 import Alamofire
+import PlaygroundSupport
+
+PlaygroundPage.current.needsIndefiniteExecution = true
 
 Alamofire.request("https://httpbin.org/get")
 
