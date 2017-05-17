@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07371C6119E90E72DCF819EA /* Pods_dum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1230FD0094CD2711B72879 /* Pods_dum.framework */; };
 		DC6219751ECC19CE00F4CD1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6219741ECC19CE00F4CD1C /* AppDelegate.swift */; };
 		DC6219771ECC19CE00F4CD1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6219761ECC19CE00F4CD1C /* ViewController.swift */; };
 		DC62197A1ECC19CE00F4CD1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6219781ECC19CE00F4CD1C /* Main.storyboard */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01FAAB8926F074ECE262F6D4 /* Pods-dum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dum.release.xcconfig"; path = "Pods/Target Support Files/Pods-dum/Pods-dum.release.xcconfig"; sourceTree = "<group>"; };
+		9ED70F47DE981805084E102F /* Pods-dum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dum/Pods-dum.debug.xcconfig"; sourceTree = "<group>"; };
 		DC6219711ECC19CE00F4CD1C /* dum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6219741ECC19CE00F4CD1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC6219761ECC19CE00F4CD1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		DC6219901ECC19CE00F4CD1C /* dumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6219941ECC19CE00F4CD1C /* dumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dumUITests.swift; sourceTree = "<group>"; };
 		DC6219961ECC19CE00F4CD1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6219A21ECC1AC900F4CD1C /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; };
+		DC6219A31ECC1E9300F4CD1C /* Response Handling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Response Handling.playground"; sourceTree = "<group>"; };
+		DC6219A41ECC1F8400F4CD1C /* Making a Request.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Making a Request.playground"; sourceTree = "<group>"; };
+		DC6219A51ECC1FF800F4CD1C /* Response Data Handler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Response Data Handler.playground"; sourceTree = "<group>"; };
+		FE1230FD0094CD2711B72879 /* Pods_dum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07371C6119E90E72DCF819EA /* Pods_dum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +83,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1AA4DB9C1D2104FD5D2CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE1230FD0094CD2711B72879 /* Pods_dum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A5ACFC58DD548847F4BEE0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ED70F47DE981805084E102F /* Pods-dum.debug.xcconfig */,
+				01FAAB8926F074ECE262F6D4 /* Pods-dum.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DC6219681ECC19CE00F4CD1C = {
 			isa = PBXGroup;
 			children = (
+				DC6219A51ECC1FF800F4CD1C /* Response Data Handler.playground */,
+				DC6219A41ECC1F8400F4CD1C /* Making a Request.playground */,
+				DC6219A31ECC1E9300F4CD1C /* Response Handling.playground */,
+				DC6219A21ECC1AC900F4CD1C /* Test.playground */,
 				DC6219731ECC19CE00F4CD1C /* dum */,
 				DC6219881ECC19CE00F4CD1C /* dumTests */,
 				DC6219931ECC19CE00F4CD1C /* dumUITests */,
 				DC6219721ECC19CE00F4CD1C /* Products */,
+				4A5ACFC58DD548847F4BEE0F /* Pods */,
+				3D1AA4DB9C1D2104FD5D2CA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC6219991ECC19CE00F4CD1C /* Build configuration list for PBXNativeTarget "dum" */;
 			buildPhases = (
+				D41B400935D25596901CE4FF /* [CP] Check Pods Manifest.lock */,
 				DC62196D1ECC19CE00F4CD1C /* Sources */,
 				DC62196E1ECC19CE00F4CD1C /* Frameworks */,
 				DC62196F1ECC19CE00F4CD1C /* Resources */,
+				5A5293F293BFCEF582EDE8B6 /* [CP] Embed Pods Frameworks */,
+				9C2F2FF26A590227129E074A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A5293F293BFCEF582EDE8B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dum/Pods-dum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C2F2FF26A590227129E074A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dum/Pods-dum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D41B400935D25596901CE4FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC62196D1ECC19CE00F4CD1C /* Sources */ = {
@@ -413,6 +496,7 @@
 		};
 		DC62199A1ECC19CE00F4CD1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED70F47DE981805084E102F /* Pods-dum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8X445N7629;
@@ -426,6 +510,7 @@
 		};
 		DC62199B1ECC19CE00F4CD1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01FAAB8926F074ECE262F6D4 /* Pods-dum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8X445N7629;
@@ -514,6 +599,7 @@
 				DC62199B1ECC19CE00F4CD1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC62199C1ECC19CE00F4CD1C /* Build configuration list for PBXNativeTarget "dumTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +608,7 @@
 				DC62199E1ECC19CE00F4CD1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC62199F1ECC19CE00F4CD1C /* Build configuration list for PBXNativeTarget "dumUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +617,7 @@
 				DC6219A11ECC19CE00F4CD1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
