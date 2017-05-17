@@ -58,6 +58,13 @@
 		DC6219A71ECC209200F4CD1C /* Response JSON Handler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Response JSON Handler.playground"; sourceTree = "<group>"; };
 		DC6219A81ECC20A600F4CD1C /* Chained Response Handlers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chained Response Handlers.playground"; sourceTree = "<group>"; };
 		DC6219A91ECC216200F4CD1C /* Response Handler Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Response Handler Queue.playground"; sourceTree = "<group>"; };
+		DC6219AA1ECC21A100F4CD1C /* Response Validation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Response Validation.playground"; sourceTree = "<group>"; };
+		DC6219AB1ECC21C400F4CD1C /* Response Caching.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Response Caching.playground"; sourceTree = "<group>"; };
+		DC6219AC1ECC21DD00F4CD1C /* HTTP Methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "HTTP Methods.playground"; sourceTree = "<group>"; };
+		DC6219AD1ECC21F500F4CD1C /* Parameter Encoding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Parameter Encoding.playground"; sourceTree = "<group>"; };
+		DC6219AE1ECC220F00F4CD1C /* HTTP Headers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "HTTP Headers.playground"; sourceTree = "<group>"; };
+		DC6219AF1ECC222A00F4CD1C /* Authentication.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Authentication.playground; sourceTree = "<group>"; };
+		DC6219B01ECC226000F4CD1C /* Downloading Data to a File.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Downloading Data to a File.playground"; sourceTree = "<group>"; };
 		FE1230FD0094CD2711B72879 /* Pods_dum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,6 +114,13 @@
 		DC6219681ECC19CE00F4CD1C = {
 			isa = PBXGroup;
 			children = (
+				DC6219B01ECC226000F4CD1C /* Downloading Data to a File.playground */,
+				DC6219AF1ECC222A00F4CD1C /* Authentication.playground */,
+				DC6219AE1ECC220F00F4CD1C /* HTTP Headers.playground */,
+				DC6219AD1ECC21F500F4CD1C /* Parameter Encoding.playground */,
+				DC6219AC1ECC21DD00F4CD1C /* HTTP Methods.playground */,
+				DC6219AB1ECC21C400F4CD1C /* Response Caching.playground */,
+				DC6219AA1ECC21A100F4CD1C /* Response Validation.playground */,
 				DC6219A91ECC216200F4CD1C /* Response Handler Queue.playground */,
 				DC6219A81ECC20A600F4CD1C /* Chained Response Handlers.playground */,
 				DC6219A71ECC209200F4CD1C /* Response JSON Handler.playground */,
