@@ -50,7 +50,7 @@
 		DC6219901ECC19CE00F4CD1C /* dumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6219941ECC19CE00F4CD1C /* dumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dumUITests.swift; sourceTree = "<group>"; };
 		DC6219961ECC19CE00F4CD1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC6219A21ECC1AC900F4CD1C /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; };
+		DC6219A21ECC1AC900F4CD1C /* Overview.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Overview.playground; sourceTree = "<group>"; };
 		DC6219A31ECC1E9300F4CD1C /* Response Handling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Response Handling.playground"; sourceTree = "<group>"; };
 		DC6219A41ECC1F8400F4CD1C /* Making a Request.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Making a Request.playground"; sourceTree = "<group>"; };
 		DC6219A51ECC1FF800F4CD1C /* Response Data Handler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Response Data Handler.playground"; sourceTree = "<group>"; };
@@ -119,6 +119,7 @@
 		DC6219681ECC19CE00F4CD1C = {
 			isa = PBXGroup;
 			children = (
+				DC6219A21ECC1AC900F4CD1C /* Overview.playground */,
 				DC6219B51ECC235100F4CD1C /* Request.playground */,
 				DC6219B41ECC232C00F4CD1C /* Session Delegate.playground */,
 				DC6219B31ECC230000F4CD1C /* Session Manager.playground */,
@@ -138,7 +139,6 @@
 				DC6219A51ECC1FF800F4CD1C /* Response Data Handler.playground */,
 				DC6219A41ECC1F8400F4CD1C /* Making a Request.playground */,
 				DC6219A31ECC1E9300F4CD1C /* Response Handling.playground */,
-				DC6219A21ECC1AC900F4CD1C /* Test.playground */,
 				DC6219731ECC19CE00F4CD1C /* dum */,
 				DC6219881ECC19CE00F4CD1C /* dumTests */,
 				DC6219931ECC19CE00F4CD1C /* dumUITests */,
