@@ -19,3 +19,5 @@ Alamofire.request("https://httpbin.org/get", parameters: parameters, encoding: U
 Alamofire.request("https://httpbin.org/get", parameters: parameters, encoding: URLEncoding(destination: .methodDependent))
 
 // https://httpbin.org/get?foo=bar
+
+//POST Request With URL-Encoded Parameters
