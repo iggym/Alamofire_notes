@@ -25,8 +25,10 @@ Alamofire.request("https://httpbin.org/get")
 
 
 //Automatic Validation
+/*:
+ Automatically validates status code within 200..<300 range, and that the Content-Type header of the response matches the Accept header of the request, if one is provided.
+ */
 
-Automatically validates status code within 200..<300 range, and that the Content-Type header of the response matches the Accept header of the request, if one is provided.
 
 Alamofire.request("https://httpbin.org/get").validate().responseJSON { response in
     switch response.result {
