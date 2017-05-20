@@ -2,8 +2,9 @@
 <playground version='6.0' target-platform='ios'>
     <pages>
         <page name='Overview'/>
-        <page name='Untitled Page 2'/>
-        <page name='Untitled Page 3'/>
-        <page name='Untitled Page 4'/>
+        <page name='URL Encoding'/>
+        <page name='JSON Encoding'/>
+        <page name='Property List Encoding'/>
+        <page name='Custom Encoding'/>
     </pages>
 </playground>

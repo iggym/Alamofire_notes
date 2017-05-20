@@ -1,3 +1,5 @@
+//: [Previous](@previous)
+
 import UIKit
 import Alamofire
 import PlaygroundSupport
@@ -43,7 +45,7 @@ Alamofire.request("https://httpbin.org/post", method: .post, parameters: paramet
  The JSONEncoding type creates a JSON representation of the parameters object, which is set as the HTTP body of the request. The Content-Type HTTP header field of an encoded request is set to application/json.
  
  POST Request with JSON-Encoded Parameters
-
+ 
  */
 
 let parameters: Parameters = [
@@ -58,3 +60,4 @@ Alamofire.request("https://httpbin.org/post", method: .post, parameters: paramet
 Alamofire.request("https://httpbin.org/post", method: .post, parameters: parameters, encoding: JSONEncoding(options: []))
 
 // HTTP body: {"foo": [1, 2, 3], "bar": {"baz": "qux"}}
+//: [Next](@next)
