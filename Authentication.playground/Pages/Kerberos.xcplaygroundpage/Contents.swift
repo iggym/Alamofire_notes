@@ -1,6 +1,10 @@
 //: [Previous](@previous)
+import UIKit
+import Alamofire
+import PlaygroundSupport
 
-import Foundation
+PlaygroundPage.current.needsIndefiniteExecution = true
+
 
 var str = "Hello, playground"
 

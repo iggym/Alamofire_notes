@@ -1,7 +1,18 @@
 //: [Previous](@previous)
+import UIKit
+import Alamofire
+import PlaygroundSupport
 
-import Foundation
+PlaygroundPage.current.needsIndefiniteExecution = true
 
-var str = "Hello, playground"
+
+let user = "user"
+let password = "password"
+
+Alamofire.request("https://httpbin.org/basic-auth/\(user)/\(password)")
+    .authenticate(user: user, password: password)
+    .responseJSON { response in
+        debugPrint(response)
+}
 
 //: [Next](@next)
